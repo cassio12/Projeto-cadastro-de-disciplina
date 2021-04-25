@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title></title>
+        <title>Cadastrar Disciplinas</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="./assets/style.css"/>
     </head>
@@ -10,7 +10,7 @@
             <section class="main--section_matter_register">
                 <div class="section_matter_register--box_register">
                     <h2>Cadastre a Disciplina</h2>
-                    <form>
+                    <form onsubmit="return false"> 
                         <div class="form--box_area_section_register">
                             <label for="name">Nome:</label>
                             <input id="name" type="text"/>
@@ -18,12 +18,18 @@
                             <input id="start" type="time"/>
                             <label for="end">Fim:</label>
                             <input id="end" type="time"/>
-                            <label for="date">Data:</label>
-                            <input id="date" type="date"/>
+                            <label for="days">Dia:</label>
+                            <select id="days" >
+                                <option value="segunda">Segunda-feira</option>
+                                <option value="treça">Treça-feira</option>
+                                <option value="quarta">Quarta-feira</option>
+                                <option value="quinta">Quinta-feira</option>
+                                <option value="sexta">Sexta-feira</option>
+                              </select>
                             <label for="matter">Disciplina:</label>
                             <input id="matter" type="text"/>
                         </div>
-                        <button>Cadastrar</button>
+                        <button class="btnSubmit" onclick="saveData()" >Cadastrar</button>
                     </form>
                 </div>
             </section>
