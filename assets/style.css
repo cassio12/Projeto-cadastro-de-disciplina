@@ -5,16 +5,11 @@ body {
 .main--section_matter_register {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .section_matter_register--box_register {
     width: 80%;
-    height: 31vh;
-    display: flex;
-    flex-direction: column;
-}
-
-form {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -23,6 +18,10 @@ form {
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 0 7px 0 #000;
+}
+
+.box_register--title {
+    margin: 0 0 20px 0;
 }
 
 input {
@@ -38,4 +37,46 @@ input {
     width: 10%;
     height: 4vh;
     border-radius: 15px;
+}
+
+.main--material_board {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.material_board--sow_material {
+    min-width: 55%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 #000;
+}
+
+table {
+    border: 1 solid;
+}
+
+.material_board--feedbaks_box {
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #ffff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 #000;
+    margin-left: 2rem;
+}
+
+.material_board--direction {
+    width: 84.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

@@ -1,3 +1,8 @@
+import firebase from "firebase/app";
+import "firebase/analytics";
+import "firebase/auth";
+import "firebase/firestore"
+
 main = () => {
 
     saveData = () => {
@@ -24,6 +29,16 @@ main = () => {
 
         saveData()
     }
+    const firebaseConig = {
+
+    }
+    firebase.initializeApp(firebaseConfig);
+
+    let config = {
+        apiKey: "",
+        
+    }
+
 }
 
 main()
