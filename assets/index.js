@@ -4,6 +4,20 @@ import "firebase/auth";
 import "firebase/firestore"
 
 main = () => {
+    let config = {
+        apiKey: "apiKey",
+        authDomain: "projectId.firebaseapp.com",
+        databaseURL: "https://databaseName.firebaseio.com",
+        storageBucket: "bucket.appspot.com"
+    };
+    firebase.initializeApp(config)
+    
+    let database = firebase.database()
+
+    const firebaseConig = {
+
+    }
+    firebase.initializeApp(firebaseConfig);
 
     saveData = () => {
         const nameProfessor = document.getElementById('name').value
@@ -29,15 +43,7 @@ main = () => {
 
         saveData()
     }
-    const firebaseConig = {
 
-    }
-    firebase.initializeApp(firebaseConfig);
-
-    let config = {
-        apiKey: "",
-        
-    }
 
 }
 

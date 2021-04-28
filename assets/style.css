@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 body {
-    background-color: #4388dd;
+    background-color: #600;
+    font-family: 'Ubuntu', sans-serif;
+
 }
+
 
 .main--section_matter_register {
     display: flex;
@@ -24,19 +28,30 @@ body {
     margin: 0 0 20px 0;
 }
 
-input {
+input{
     border-radius: 15px;
     border-width: .5px;
     outline: none;
     padding-left: 5px;
     font-size: 1rem;
     margin-bottom: 1rem;
+    text-transform: capitalize;
 }
+
 
 .btnSubmit {
     width: 10%;
     height: 4vh;
     border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btnSubmit:hover{
+    background-color: #600;
+    border: 1px solid #000000;
+    color: #ffffff;
 }
 
 .main--material_board {
@@ -56,9 +71,18 @@ input {
     border-radius: 15px;
     box-shadow: 0 0 7px 0 #000;
 }
-
-table {
-    border: 1 solid;
+table{
+    text-transform: capitalize;
+    border-radius: 15px;
+    text-align: center;
+}
+td1{
+    background-color: #600;
+    color: #ffff;
+}
+thead{
+    background-color: #600;
+    color: #ffff;
 }
 
 .material_board--feedbaks_box {
