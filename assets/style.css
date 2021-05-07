@@ -47,6 +47,7 @@ input{
     color: #000;
     cursor: pointer;
     font-weight: bold;
+    outline: none;
 }
 .btnSubmit:hover{
     background-color: #600;

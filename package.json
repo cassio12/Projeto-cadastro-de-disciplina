@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/cassio12/Projeto-cadastro-de-disciplina#readme",
   "dependencies": {
-    "firebase": "^8.4.2"
+    "firebase": "^8.3.2"
   }
 }

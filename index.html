@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="./assets/style.css"/>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-            </style>
+        </style>
     </head>
     <body>
         <main>
@@ -32,7 +32,7 @@
                             <label for="matter">Disciplina:</label>
                             <input id="matter" type="text"/>
                         </div>
-                        <button class="btnSubmit" onclick="saveData()" >Cadastrar</button>
+                        <button id="btnSubmit" class="btnSubmit" >Cadastrar</button>
                     </form>
                 </div>
             </section>
@@ -96,10 +96,9 @@
                 </div>
             </section>
         </main>
-
-        <script src="./assets/index.js"></script>
-        <script src="/__/firebase/8.4.2/firebase-app.js"></script>
-        <script src="/__/firebase/8.4.2/firebase-analytics.js"></script>
-        <script src="/__/firebase/init.js"></script>
+        <script type="module" src="./assets/index.js"></script>
+        <script type="module" src="./assets/rtdb_get_reference.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
     </body>
 </html>
