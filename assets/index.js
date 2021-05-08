@@ -1,6 +1,5 @@
 import firebase from "firebase/app";
 import "firebase/analytics";
-import dbGetRef from "./rtdb_get_reference"
 
 import "firebase/auth";
 import "firebase/firestore";
