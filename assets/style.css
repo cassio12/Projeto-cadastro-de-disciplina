@@ -14,15 +14,35 @@ body {
 }
 
 .main--section_cardsProfile {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card_item {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.section_cardsProfile--card_profile_teacher {
+    flex-direction: column;
     width: 30%;
     height: 40%;
     background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 #000;
+}
+
+.text_card {
+    margin-top: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.perfil_icon {
+    width: 60%;
 }
 
 .main--section_matter_register {
@@ -43,6 +63,10 @@ body {
     box-shadow: 0 0 7px 0 #000;
 }
 
+.body--screen_title_teacher {
+    padding-left: 4rem;
+}
+
 .box_register--title {
     margin: 0 0 20px 0;
 }
@@ -56,7 +80,6 @@ input{
     margin-bottom: 1rem;
     text-transform: capitalize;
 }
-
 
 .btnSubmit {
     width: 10%;
@@ -123,4 +146,24 @@ thead{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.main--section_exit {
+    width: 92%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.box_exit--txt {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 #000;
+    font-size: 1.2rem;
 }
