@@ -9,37 +9,17 @@
         </style>
     </head>
     <body>
-        <h1 class="body--screen_title_teacher">Tela do Professor</h1>
+        <h1 class="body--screen_title_teacher">Tela do Coordenador</h1>
         <main>
             <section class="main--section_matter_register">
                 <div class="section_matter_register--box_register">
-                    <h2 class="box_register--title">Cadastre a Disciplina</h2>
-                    <form onsubmit="return false"> 
-                        <div class="form--box_area_section_register">
-                            <label for="name">Nome:</label>
-                            <input id="name" type="text"/>
-                            <label for="start">Inicio:</label>
-                            <input id="start" type="time"/>
-                            <label for="end">Fim:</label>
-                            <input id="end" type="time"/>
-                            <label for="days">Dia:</label>
-                            <select id="days" >
-                                <option value="segunda">Segunda-feira</option>
-                                <option value="treça">Terça-feira</option>
-                                <option value="quarta">Quarta-feira</option>
-                                <option value="quinta">Quinta-feira</option>
-                                <option value="sexta">Sexta-feira</option>
-                              </select>
-                            <label for="matter">Disciplina:</label>
-                            <input id="matter" type="text"/>
-                        </div>
-                        <button id="btnSubmit" class="btnSubmit" >Cadastrar</button>
-                    </form>
+                    <h2 class="box_register--title">Lista de Disciplina</h2>
+                    <ul></ul>
                 </div>
             </section>
             <section class="main--material_board">
                 <div class="material_board--direction">
-                    <div class="material_board--sow_material">
+                    <div class="material_board--sow_material material_board--sow_material_coordenador">
                         <table border="1px">
                             <thead>
                                 <td width=50>HORA</td>
@@ -50,7 +30,7 @@
                                 <td width=110>SEXTA-FEIRA</td>
                             </thead>
                             <tr>
-                                <td>Horário</td>
+                                <td><input type="time"></input></td>
                                 <td>matéria</td>
                                 <td>matéria</td>
                                 <td>matéria</td>
@@ -58,7 +38,7 @@
                                 <td>matéria</td>
                             </tr>
                             <tr>
-                                <td>Horário</td>
+                                <td><input type="time"></input></td>
                                 <td>matéria</td>
                                 <td>matéria</td>
                                 <td>matéria</td>
@@ -66,7 +46,7 @@
                                 <td>matéria</td>
                             </tr>
                             <tr>
-                                <td>Horário</td>
+                                <td><input type="time"></input></td>
                                 <td>matéria</td>
                                 <td>matéria</td>
                                 <td>matéria</td>
@@ -74,7 +54,7 @@
                                 <td>matéria</td>
                             </tr>
                             <tr>
-                                <td>Horário</td>
+                                <td><input type="time"></input></td>
                                 <td>matéria</td>
                                 <td>matéria</td>
                                 <td>matéria</td>
@@ -82,7 +62,7 @@
                                 <td>matéria</td>
                             </tr>
                             <tr>
-                                <td>Horário</td>
+                                <td><input type="time"></input></td>
                                 <td>matéria</td>
                                 <td>matéria</td>
                                 <td>matéria</td>
@@ -90,6 +70,9 @@
                                 <td>matéria</td>
                             </tr>
                         </table>
+                        <div>
+                            <button class="btnSave_table">Salvar</button>
+                        </div>
                     </div>
                     <div class="material_board--feedbaks_box">
                         <h2>Feedbacks</h2>

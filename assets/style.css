@@ -114,6 +114,11 @@ input{
     border-radius: 15px;
     box-shadow: 0 0 7px 0 #000;
 }
+.material_board--sow_material_coordenador {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 table{
     text-transform: capitalize;
     border-radius: 15px;
@@ -126,6 +131,24 @@ td1{
 thead{
     background-color: #600;
     color: #ffff;
+}
+
+.btnSave_table {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 7px 0 #000;
+    font-size: .8rem;
+    outline: none;
+}
+.btnSave_table:hover{
+    background-color: #600;
+    border: 1px solid #000000;
+    color: #ffffff;
 }
 
 .material_board--feedbaks_box {
@@ -166,4 +189,9 @@ thead{
     border-radius: 15px;
     box-shadow: 0 0 7px 0 #000;
     font-size: 1.2rem;
+}
+.box_exit--txt:hover{
+    background-color: #600;
+    border: 1px solid #000000;
+    color: #ffffff;
 }
