@@ -5,27 +5,25 @@
 // import "firebase/firestore";
 
 let inputValue = document.getElementsByClassName('entrada_tabela')
+let saveBtn = document.getElementById("saveBtn")
+let editBtn = document.getElementById("editBtn")
 
 main = () => {
-    editarTabela = () => {  
-        console.log(inputValue[0].disabled)
+    editBtn.addEventListener('click', () => {  
         for(let i = 0; i < inputValue.length; i++) {
             if(inputValue[i].disabled === true){
                 inputValue[i].disabled = !inputValue[i].disabled
-                console.log(inputValue[0].disabled)
             }
         }
-    }
+    })
 
-    salvarMateria = () => {
-        console.log(inputValue[0].disabled)
+    saveBtn.addEventListener('click', () => {
         for(let i = 0; i < inputValue.length; i++) {
             if(inputValue[i].disabled === false){
                 inputValue[i].disabled = !inputValue[i].disabled
-                console.log(inputValue[0].disabled)
             }
         }
-    }
+    })
 
 
     // let firebaseConfig = {
