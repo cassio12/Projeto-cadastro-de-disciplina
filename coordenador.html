@@ -30,48 +30,49 @@
                                 <td width=110>SEXTA-FEIRA</td>
                             </thead>
                             <tr>
-                                <td><input type="time"></input></td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
+                                <td><input class="entrada_tabela" type="time" value="18:20" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="compiladores" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="OO" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
                             </tr>
                             <tr>
-                                <td><input type="time"></input></td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
+                                <td><input class="entrada_tabela" type="time" value="19:20" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="compiladores" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="OO" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
                             </tr>
                             <tr>
-                                <td><input type="time"></input></td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
+                                <td><input class="entrada_tabela" type="time" value="20:20" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="compiladores" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="OO" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
                             </tr>
                             <tr>
-                                <td><input type="time"></input></td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
+                                <td><input class="entrada_tabela" type="time" value="21:20" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="compiladores" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="OO" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
                             </tr>
                             <tr>
-                                <td><input type="time"></input></td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
-                                <td>matéria</td>
+                                <td><input class="entrada_tabela" type="time" value="22:00" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="compiladores" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" value="OO" disabled></input></td>
+                                <td><input class="entrada_tabela" type="text" disabled></input></td>
                             </tr>
                         </table>
-                        <div>
-                            <button class="btnSave_table">Salvar</button>
+                        <div class="sow_material--box_btns_edit_table">
+                            <button class="btnSave_table" onclick="salvarMateria()">Salvar</button>
+                            <button id="editBnt" class="btnSave_table" onclick="editarTabela()"><img width="15px"  src="./assets/imagens/lapis.png"/>Editar</button>
                         </div>
                     </div>
                     <div class="material_board--feedbaks_box">
@@ -84,9 +85,9 @@
             </section>
         </main>
 
-        <script type="module" src="./assets/index.js"></script>
-        <script type="module" src="./assets/rtdb_get_reference.js"></script>
+        <script src="./assets/index.js"></script>
+        <!-- <script type="module" src="./assets/rtdb_get_reference.js"></script>
         <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-firestore.js"></script> -->
     </body>
 </html>
